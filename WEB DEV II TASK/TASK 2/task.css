@@ -1,0 +1,190 @@
+body{
+    background-color: white;
+}
+
+/* basic styling to the search bar */
+.search{
+    text-align: center;
+}
+
+/* Styling the input field */
+.search input[type="text"] {
+    width: 200px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    font-size: 10px;
+    color: rgb(98, 98, 98);
+}
+
+/*styling of navigation bar*/
+nav{
+    text-decoration: none;
+    margin-right: 1%;
+}
+
+/*added hover effect to the navigation bar*/
+nav a:hover{
+    background-color: #fff;
+    color: black;
+}
+
+/* text styling of navigation bar*/
+a{
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+}
+
+/*styling, alignment of the DIV tag "BAR" (H1, FORM and NAVIGATION)*/
+.bar{
+    background-color: rgb(38, 127, 243);
+    height: 60px;
+    width: 100%;
+    max-height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*styling of the main heading of the webpage in first DIV TAG 'bar' */
+h1{
+    color: white;
+    font-size: 20px;
+    margin-left: 1%;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 550;
+}
+
+/*Alignment, styling of the article tag on the left side of the webpage*/
+.article {
+    width: 530px;
+    height: 770px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    float: left;
+    margin-left: 17%;
+    margin-right: 1%;
+    margin-top: 1.5%;
+}
+
+/*alignment and styling of the image in the article tag*/
+.article img {
+    max-width: 100%;
+    height: auto;
+    width: 100%;
+    height: auto;
+}
+
+/*alignment of the text in the article tag*/
+.content {
+    padding: 20px;
+    text-align: left;
+}
+
+/*font styling of H2 in article tag*/
+.article h2{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 200px;
+    margin-top: -2%;
+}
+
+/*font styling of P/text in article tag*/
+.article p{
+    line-height: 23px;
+    font-family: 'Roboto Flex', sans-serif;
+    font-weight: 300px;
+    font-size: 15px;
+}
+
+/*alignment, styling, resizing of button in article tag*/
+.article button{
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    width: 70px;
+    height: 25px;
+    cursor: pointer;
+    margin-left: 85%;
+    margin-top: 3%;
+    font-size: 11px;
+}
+
+/*hover effect on the button inside the article*/
+.article button:hover{
+    background-color: #fff;
+    color: black;
+    border: 1px solid black;
+}
+
+/*alignment of four boxes (DIV tag) on the right side of the webpage, next to article tag*/
+.container {
+    display: flex;
+    flex-wrap: wrap; /*flex wrap used to display (content2) in rows*/
+    margin-top: 1.5%;
+    margin-right: 10%;
+}
+
+/*alignment and styling of content inside the container*/
+.content2 {
+    width: 190px;
+    height: 550px;
+    border-radius: none;
+    margin-bottom: 1%;
+    margin-left: 1.5%;
+    box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.3);
+}
+
+/*alignment and sizing of the image inside content2*/
+.content2 img {
+    width: 160px;
+    height: 210px;
+    margin-top: 19px;
+    margin-left: 7.5%;
+}
+
+/*alignment of contents stored in inside-content*/
+.inside-content {
+    padding: 20px;
+    text-align: left;
+}
+
+/*font styling and alignment of heading in content2*/
+.content2 h2 {
+    font-size: 19px;
+    font-family: 'Roboto Flex', sans-serif;
+    margin-top: -9%;
+    text-align: left;
+}
+
+/*font styling and alignment of paragraph in content2*/
+.content2 p {
+    font-size: 12px;
+    font-family: 'Roboto Flex', sans-serif;
+    line-height: 17px;
+    font-weight: 400;
+}
+
+/*styling, resizing, alignment of the button in content2*/
+.content2 button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    width: 70px;
+    height: 25px;
+    cursor: pointer;
+    margin-left: 53%;
+    margin-top: 10%;
+    font-size: 11px;
+}
+
+/*added hover effect on the button inside content2*/
+.content2 button:hover{
+    background-color: #fff;
+    color: black;
+    border: 1px solid black;
+}

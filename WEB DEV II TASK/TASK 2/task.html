@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="task.css">
+
+    <!--google font link for the main heading-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+
+    <!--google fonts link for paragraph for four divs on the right -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,300&display=swap" rel="stylesheet">
+
+    <!--google font link for h2 main article on the left side of the webpage-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+
+    <!--google font link for h2 tag for four divs on the right side of the webpage-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 2</title>
+</head>
+<body>
+
+    <!--A DIV tag created for to store H1 TAG (heading), DIV AND FORM TAG(another div tag to created for serach bar using FORM TAG)and
+    (NAV TAG) navigation, All of this content will be stored in one DIV "BAR"-->
+    <div class="bar">
+
+        <!--H1 tag used to create the main heading for the webpage -->
+        <h1>What's On</h1>
+
+        <!--A DIV tag inside the "BAR" DIV tag to create and style a search bar in CSS-->
+        <div class="search">
+
+        <!--A FORM tag created to input data by the user-->
+            <form action="search-results.html" method="get">
+
+                <!--An INPUT TAG created to create a field to enter data-->
+                <input type="text" placeholder="Search...">
+            </form>
+        </div>
+
+        <!--A NAV tag to create a navigation bar inside the main DIV TAG "BAR"-->
+        <nav>
+            <!--an A tAG created to add choices in the navigation bar-->
+            <a href="">Movies</a>
+            <a href="">TV</a>
+            <a href="">Login</a>
+            <a href="">Register</a>
+        </nav>
+    </div>
+
+        <!--article tag created to store contents (image, text and button) in one box-->
+        <article class="article">
+
+            <!--An IMG tag for insertation of an image and styling in CSS-->
+            <img src="avengers.jpg" alt="Article Image">
+
+            <!--A DIV tag created to store H2, P and BUTTON tag so it can be styled, Aligned in CSS-->
+            <div class="content">
+
+                <!--H2 tag for heading the article (content box)-->
+                <h2>Avengers - Endgame</h2>
+
+                <!--A P tag for a lot of text to be stored inside the article tag (aka content box)-->
+                <p>After the devastating event of Avengers: Infinity War(2018), The universe is in ruins. 
+                With the help of remaining allies, the Avenges assemble once more
+                in order to reverse Thano's action and restore the balance of the universe.</p>
+                
+                <!--A BUTTON TAG created to created a button inside the main DIV TAG and to be styled in CSS file-->
+                <button>Read More</button>   
+            </div>
+        </article>
+    
+        <!--A new DIV TAG is created outside the ARTICLE TAG to create, styled and store new content-->
+        <div class="container">
+
+            <!--Another DIV TAG inside the (Container) DIV tag so other contents can be stored and styled in css-->
+            <div class="content2">
+
+                <!--An IMG tag for insertation of an image and styling in CSS-->
+                <img src="lone-gunmen.jpg" alt="Image 1">
+
+                <!--A third DIV tag inside the (container and content2) DIV tag to style contents which will be stored in this DIV tag-->
+                <div class="inside-content">
+
+                    <!--H2 TAG to create a heading underneath the image -->
+                    <h2>The Lone Gunmen</h2>
+
+                    <!--A P TAG to write and store a paragraph underneath the H2 tag and style in css file-->
+                    <p>The X-Files' Lone Gunman, investigates crimes and and conspiraces, often in a silly,
+                    comedic and over the top fashion </p>
+
+                    <!--A BUTTON TAG created for the user to interact with it and to be styled in CSS file-->
+                    <button>More Info...</button>
+                </div>
+            </div>
+            <div class="content2">
+                <img src="predators.jpg" alt="Image 2">
+                <div class="inside-content">
+                    <h2>Predators</h2>
+                    <p>A Group of elite warriors parachute into unfamilar jungle and are haunted 
+                    by members of merciless alien race</p>
+                    <button>More Info...</button>
+                </div>
+            </div>
+            <div class="content2">
+                <img src="millenium.jpg" alt="Image 3">
+                <div class="inside-content">
+                    <h2>Trilogy </h2>
+                    <p> Lorem ipsum</p>
+                    <button>More Info...</button>
+                </div>
+            </div>
+            <div class="content2">
+                <img src="rage.jpg" alt="Image 4">
+                <div class="inside-content">
+                    <h2 class="head2">Rage</h2>
+                    <p> Lorem ipsum</p>
+                    <button>More Info...</button>
+                </div>
+            </div>
+        </div>
+
+    </body>
+    </html>
+    
