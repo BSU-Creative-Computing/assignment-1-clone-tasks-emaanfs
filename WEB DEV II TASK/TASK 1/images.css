@@ -1,8 +1,11 @@
+
+/*alignment and coloring of the webpage*/
 body{
     background-color: white;
     margin: 0;
 }
 
+/*basic styling and alignment of the div tag "box", so the images can be aligned inside the div tag*/
 .box{
     background-color: rgb(255, 243, 233);
     display: flex;
@@ -10,13 +13,14 @@ body{
     justify-content: space-between;
 }
 
+/*basic resizing and alignment of images*/
 img{
     max-width: 100%;
     height: auto;
     margin-bottom: 0px
 }
 
-
+/*text alignment, font styling and resizing */
 .box p {
     width: 100%; /* Full width for the paragraph */
     line-height: 27px;
@@ -25,6 +29,7 @@ img{
     margin-bottom: 10px;
 }
 
+/*basic reszing and alignment of the logon in navigation tag*/
 .logo{
     width: 55px;
     height: 55px;
@@ -32,6 +37,7 @@ img{
     padding-bottom: 1%;
 }
 
+/*alignment, styling of text  */
 footer{
     text-align: center;
     margin: 0;
