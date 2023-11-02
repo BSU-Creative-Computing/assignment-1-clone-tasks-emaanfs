@@ -1,5 +1,5 @@
 body{
-    background-color: white;
+    background-color: rgb(239, 239, 239);
 }
 
 /* basic styling to the search bar */
@@ -60,27 +60,26 @@ h1{
 /*Alignment, styling of the article tag on the left side of the webpage*/
 .article {
     width: 530px;
-    height: 770px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
     float: left;
-    margin-left: 17%;
+    margin-left: 18.5%;
     margin-right: 1%;
     margin-top: 1.5%;
+    background-color: white;
+    box-shadow: 11px 11px 5px -5px rgba(0,0,0,0.1);
 }
 
 /*alignment and styling of the image in the article tag*/
 .article img {
     max-width: 100%;
     height: auto;
-    width: 100%;
-    height: auto;
 }
 
 /*alignment of the text in the article tag*/
 .content {
     padding: 20px;
+    background-color: white;
     text-align: left;
 }
 
@@ -93,10 +92,11 @@ h1{
 
 /*font styling of P/text in article tag*/
 .article p{
-    line-height: 23px;
+    line-height: 21px;
     font-family: 'Roboto Flex', sans-serif;
     font-weight: 300px;
-    font-size: 15px;
+    font-size: 13px;
+    margin-top: -13px;
 }
 
 /*alignment, styling, resizing of button in article tag*/
@@ -105,12 +105,13 @@ h1{
     color: #fff;
     border: none;
     border-radius: 3px;
-    width: 70px;
-    height: 25px;
+    width: 80px;
+    height: 30px;
+    align-items: center;
     cursor: pointer;
-    margin-left: 85%;
+    margin-left: 84%;
     margin-top: 3%;
-    font-size: 11px;
+    font-size: 12px;
 }
 
 /*hover effect on the button inside the article*/
@@ -131,11 +132,12 @@ h1{
 /*alignment and styling of content inside the container*/
 .content2 {
     width: 190px;
-    height: 550px;
+    height: 450px;
     border-radius: none;
     margin-bottom: 1%;
     margin-left: 1.5%;
-    box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.3);
+    box-shadow: 9px 8px 5px -5px rgba(0,0,0,0.1);
+    background-color: white;
 }
 
 /*alignment and sizing of the image inside content2*/
@@ -152,6 +154,7 @@ h1{
     text-align: left;
 }
 
+
 /*font styling and alignment of heading in content2*/
 .content2 h2 {
     font-size: 19px;
@@ -166,6 +169,7 @@ h1{
     font-family: 'Roboto Flex', sans-serif;
     line-height: 17px;
     font-weight: 400;
+    margin-top: -9px;
 }
 
 /*styling, resizing, alignment of the button in content2*/
@@ -177,14 +181,47 @@ h1{
     width: 70px;
     height: 25px;
     cursor: pointer;
-    margin-left: 53%;
-    margin-top: 10%;
+    margin-left: 57%;
     font-size: 11px;
+    margin-top: 13%;
 }
+
+.btn{
+    margin-top: 17%;
+}
+
 
 /*added hover effect on the button inside content2*/
 .content2 button:hover{
     background-color: #fff;
     color: black;
     border: 1px solid black;
+}
+
+
+footer{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 3%;
+    margin-bottom: 2%
+}
+
+@media screen and (max-width:1477px) and (min-width:) {
+    
+}
+
+@media screen and (max-width:1281px) {
+    
+}
+
+@media screen and (max-width: 1025px) {
+    
+}
+
+@media screen and (max-width:801px) {
+    
+}
+
+@media screen and (max-width:481px){
+    
 }
