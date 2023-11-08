@@ -96,6 +96,7 @@ footer {
   background-color: #444;
 }
 
+/* LAYOUT SPECIFICATIONS FOR SCREEN SIZE 480px */
 @media screen and (max-width: 480px) {
   .container-circle {
     display: flex;
@@ -105,6 +106,7 @@ footer {
     margin-top: 3.5%;
   }
 }
+/* LAYOUT SPECIFICATIONS FOR SCREEN SIZE 481px AND 800PX */
 @media screen and (min-width: 481px) and (max-width: 800px) {
   .container-circle {
     display: flex;
@@ -114,6 +116,7 @@ footer {
     margin-top: 3.5%;
   }
 }
+/* LAYOUT SPECIFICATIONS FOR SCREEN SIZE 481px AND 800PX */
 @media screen and (min-width: 801px) {
   .container-circle {
     display: flex;

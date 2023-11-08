@@ -4,6 +4,7 @@ body{
     padding: 0;
 }
 
+/*alignment, styling of the container*/
 .box{
     background-color: rgb(255, 243, 233);
     display: flex;
@@ -11,20 +12,23 @@ body{
     justify-content: space-between;
 }
 
+/*sizing of the image*/
 img{
     width: 100%;
     height: auto;
 }
 
-
+/*alignment, sizing and font styling of the text in the container*/
 .box p {
     width: 100%; /* Full width for the paragraph */
     line-height: 27px;
     font-family: 'Courier Prime', monospace;
     margin: 10px;
+    margin-left: 1.5%;
     margin-bottom: 10px;
 }
 
+/*sizing and alignment of the picture/logo on the top of the webpage*/
 .logo{
     width: 55px;
     height: 55px;
@@ -32,6 +36,7 @@ img{
     padding-bottom: 1%;
 }
 
+/*alignment, styling and sizing of footer tag  */
 footer{
     text-align: center;
     margin: 0;
@@ -40,21 +45,21 @@ footer{
     color: white;
 }
 
-/**/
+/*sizing of the webpage using media screen*/
 @media screen and (max-width: 480px){
-    .box {
+    .box { /*sizing of the container/div tag according to the media screen size*/
         width: 100%;
     }
 
-    .box img {
+    .box img { /*sizing of images according to the media screen size*/
         margin-bottom: 10px;
     }
 
 }
 
-/**/
+
 @media screen and (min-width: 481px) and (max-width:800px)  {
-    p{
+    p{/*sizing and alignment of text according to the media screen size*/
         float: left;
         width: 48%;
     }
@@ -65,10 +70,9 @@ footer{
     
 }
 
-/**/
 @media screen and (min-width:801px) and (max-width:1024px) {
 
-    section{
+    section{/*sizing and alignment of every images in the container individually*/
         width: calc(33.33% - 0px);
         float: left;
     }
@@ -80,11 +84,10 @@ footer{
     
 }
 
-/**/
 @media screen and (min-width:1025px){
     
     section{
-        width: calc(33.33% - 0px);
+        width: calc(33.33% - 0px);/*cal function used because other width sizes wouldnt work*/
         float: left;
     }
 

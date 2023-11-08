@@ -1,5 +1,4 @@
-body{
-   
+body{ 
     background-color: rgb(235, 235, 235);
     padding: 0;
     margin: 0;
@@ -95,7 +94,7 @@ h1{
 .article p{
     line-height: 21px;
     font-family: 'Roboto Flex', sans-serif;
-    font-weight: 300px;
+    font-weight: 700px;
     font-size: 13px;
     margin-top: -13px;
 }
@@ -178,7 +177,7 @@ h1{
     font-size: 11px;
     float: right;
     margin-top: 11px;
-    margin-right: 5%;
+    margin-right: 3%;
 }
 
 .btn{
@@ -196,43 +195,49 @@ h1{
 
 footer{
     text-align: center;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
     margin-top: 3%;
     margin-bottom: 2%
 }
 
 
+/*specific width/sizing given in order to fit into the screen/layout, when displayed on different sizes of the screen*/
 @media screen and (max-width:480px) {
-    input{
+    input{/*styling of input field/ serach bar according to specific size of  media screen */
         display: none;
         visibility: hidden;
     }
     
-    nav{
+    nav{/*styling of NAV TAG according to specific size of media screen */
         visibility: hidden;
         display: none;
     }
 
-    .article{
+    .article{/*alignment of DIV TAG(main article) according to specific layout of media screen */
         margin: 3%;
         display: flex;
         flex-direction: column;
     }
 
-    .container{
+    .container{ /*alignment of a DIV TAG(container) according to different types of screen*/
         margin: 3%;
         display: flex;
         flex-direction: column;
-        
     }
 
-    footer{
+    .article button{/*algnment of BUTTON TAG in the main ARTICLE TAG according to the layout of the screen*/
+        float: right;
+        margin-left: 3%;
+    }
+
+    footer{ /*alignment of a FOOTER TAG(footer) according to different types of screen*/
         margin-top: 5%;
         margin-bottom: 6%;
     }
 
 }
 
+/* LAYOUT SPECIFICATIONS FOR SCREEN SIZE 481PX AND 800PX */
 @media screen and (min-width:481px) and (max-width:800px){
 
     main{
@@ -261,6 +266,12 @@ footer{
         justify-content: space-evenly;
     }
 
+    .article button{
+        float: right;
+        margin-left: 3%;
+        margin-bottom: 3%;
+    }
+
 
     .article{
         margin-top: 2%;
@@ -277,6 +288,8 @@ footer{
     }
 }
 
+
+/* LAYOUT SPECIFICATIONS FOR SCREEN SIZE 801PX AND 1024PX */
 @media screen and (min-width:801px) and (max-width:1024px){
 
     main{
@@ -307,9 +320,10 @@ footer{
         margin-left: 13%;       
     }
 
-    #btn{
-        margin-left:79% 
-     }
+    .article button{
+        float: right;
+        margin-left: 3%;
+    }
 
     .input{
         display: none;
@@ -318,8 +332,8 @@ footer{
 
 }
 
+/* LAYOUT SPECIFICATIONS FOR SCREEN SIZE 1025px AND 1280px */
 @media screen and (min-width:1025px) and (max-width:1280px){
-
 
     main{
         display: flex;
@@ -341,16 +355,23 @@ footer{
         margin-bottom: 3%;
     }
 
+
+    .article button{
+        float: right;
+        margin-bottom: 7%;
+    }
+
     .article{
-        width: 45%;
+        width: 50%;
         height: fit-content;
         margin-left: 11%;
         margin-top: 3%;
     }
-
     
 }
 
+
+/* LAYOUT SPECIFICATIONS FOR SCREEN SIZE 1281px */
 @media screen and (min-width:1281px) {
 
     main{
