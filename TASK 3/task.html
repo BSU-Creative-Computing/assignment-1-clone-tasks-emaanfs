@@ -11,9 +11,12 @@
     <!--A DIV TAG created to style "main-rectangle" and to store content in it.-->
     <div class="main-rectangle">
         <!--An IMG TAG to to store image into the div tag-->
-        <picture> <source src="https://via.placeholder.com/300" media="800"></picture>
-        <source src="https://via.placeholder.com/400">
-        <img src="400.png" alt="">
+        <picture> 
+            <source srcset="https://via.placeholder.com/200" media="(max-width:480px)">
+            <source srcset="https://via.placeholder.com/300" media="(max-width:800px)">
+            <source srcset="https://via.placeholder.com/400" >
+            <img src="400.png" alt="">
+        </picture>
     </div>
 
     <!--A new DIV TAG created outside the another div tag to store and create new content-->
